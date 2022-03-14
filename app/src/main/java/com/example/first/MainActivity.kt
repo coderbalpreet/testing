@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         Log.d("start" , "i see a button" )
 
         val button = findViewById<Button>(R.id.button)
-        val string = "Balpreet"
+        val fulname = "Balpreet"
 
         button.setOnClickListener{
             Log.d("click", " the button is clicked")
