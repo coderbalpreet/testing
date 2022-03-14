@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.First">
         <activity
+            android:name=".testing"
+            android:exported="false" />
+        <activity
             android:name=".secondActivity"
             android:exported="false"
-            android:label="second"/>
+            android:label="second" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
